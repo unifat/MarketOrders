@@ -1,4 +1,7 @@
 <?php
+function regionalorders()
+{
+
 //set variables
 $servername = "localhost";
 $username = "root";
@@ -43,4 +46,5 @@ if ($response_code == 200) {
         return;
       }
     }
+  }
   ?>
